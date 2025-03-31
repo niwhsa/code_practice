@@ -1,3 +1,8 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
 string nearestPalindromic(string num) {
     size_t szNum = size(num);
     bool isEven = szNum % 2  == 0;
